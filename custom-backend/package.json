@@ -1,0 +1,24 @@
+{
+  "name": "osdag-custom-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Custom Express and PostgreSQL authentication backend for the Osdag screening task",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "seed": "node db/seed.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.22.0"
+  }
+}
