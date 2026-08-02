@@ -1,0 +1,21 @@
+{
+  "name": "appwrite-backend",
+  "version": "1.0.0",
+  "description": "Appwrite implementation of the Osdag login and file-access screening task",
+  "main": "seed.js",
+  "scripts": {
+    "seed": "node seed.js"
+  },
+  "keywords": [
+    "appwrite",
+    "auth",
+    "storage"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "node-appwrite": "^27.1.0"
+  }
+}
